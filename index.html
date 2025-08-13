@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchita Dharia - Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="alternate icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='15' fill='%231e3a8a'/><text x='16' y='20' text-anchor='middle' font-size='16' fill='%23fbbf24'>🚀</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='15' fill='%231e3a8a'/><text x='16' y='20' text-anchor='middle' font-size='16' fill='%23fbbf24'>🚀</text></svg>">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Line -->
+    <div class="scroll-progress">
+        <div class="progress-line"></div>
+    </div>
+    
+    <!-- GitHub-style Grid Background -->
+    <div class="grid-background"></div>
+    
+    <!-- Floating Particles -->
+    <div class="floating-particles" id="particles"></div>
+    
+    <!-- Connecting Lines -->
+    <div class="connecting-lines">
+        <svg class="connection-svg" width="100%" height="100%">
+            <defs>
+                <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#1e90ff;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <path class="connection-path" stroke="url(#lineGradient)" stroke-width="2" fill="none" opacity="0.3"></path>
+        </svg>
+    </div>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Ruchita Dharia</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <!-- Marketing Tools Floating Animation -->
+        <div class="hero-bg-animation">
+            <div class="floating-marketing-icons">
+                <!-- Salesforce & CRM -->
+                <div class="marketing-icon" data-tooltip="Salesforce CRM">
+                    <i class="fab fa-salesforce"></i>
+                </div>
+                
+                <!-- HubSpot -->
+                <div class="marketing-icon" data-tooltip="HubSpot Marketing">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                
+                <!-- Analytics -->
+                <div class="marketing-icon" data-tooltip="Google Analytics">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                
+                <!-- Lead Generation -->
+                <div class="marketing-icon" data-tooltip="Lead Generation">
+                    <i class="fas fa-magnet"></i>
+                </div>
+                
+                <!-- Email Marketing -->
+                <div class="marketing-icon" data-tooltip="Email Marketing">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                
+                <!-- Social Media Marketing -->
+                <div class="marketing-icon" data-tooltip="Social Media">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+                
+                <!-- SEO -->
+                <div class="marketing-icon" data-tooltip="SEO Optimization">
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <!-- Marketing Automation -->
+                <div class="marketing-icon" data-tooltip="Marketing Automation">
+                    <i class="fas fa-robot"></i>
+                </div>
+                
+                <!-- Conversion Optimization -->
+                <div class="marketing-icon" data-tooltip="Conversion Rate">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                
+                <!-- A/B Testing -->
+                <div class="marketing-icon" data-tooltip="A/B Testing">
+                    <i class="fas fa-flask"></i>
+                </div>
+                
+                <!-- Customer Journey -->
+                <div class="marketing-icon" data-tooltip="Customer Journey">
+                    <i class="fas fa-route"></i>
+                </div>
+                
+                <!-- Marketing Funnel -->
+                <div class="marketing-icon" data-tooltip="Sales Funnel">
+                    <i class="fas fa-filter"></i>
+                </div>
+                
+                <!-- Digital Advertising -->
+                <div class="marketing-icon" data-tooltip="Digital Ads">
+                    <i class="fas fa-ad"></i>
+                </div>
+                
+                <!-- Growth Hacking -->
+                <div class="marketing-icon" data-tooltip="Growth Marketing">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                
+                <!-- Data Analytics -->
+                <div class="marketing-icon" data-tooltip="Data Analytics">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" id="typed-text">
+                    Hi, I'm <span class="hero-name">Ruchita Dharia</span>
+                </h1>
+                <p class="hero-subtitle">Growth Marketing Expert</p>
+                <p class="hero-description">
+                    I drive business growth through data-driven marketing strategies, 
+                    CRM optimization, and innovative solutions. I am passionate about leveraging technology
+                    to create impactful marketing campaigns that resonate with audiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn btn-primary">View My Experience</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <!-- Option 1: Photo placeholder (replace with your photo) -->
+                    <div class="hero-photo">
+                        <img src="images/ruchita-profile.jpg" alt="Ruchita Dharia" class="profile-img">
+                        <!-- Fallback placeholder if no photo -->
+                        <div class="hero-image-placeholder" style="display: none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- Instagram-style effects -->
+                    <div class="photo-effects">
+                        <div class="shimmer-effect"></div>
+                        <div class="border-glow"></div>
+                    </div>
+                    
+                    
+                    <!-- Hidden file input -->
+                    <input type="file" id="photoUpload" accept="image/*" style="display: none;" onchange="handlePhotoUpload(event)">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate full-stack developer with a keen eye for design and 
+                        a love for creating seamless user experiences. With expertise in modern 
+                        web technologies, I bring ideas to life through clean, efficient code 
+                        and intuitive interfaces.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new technologies, 
+                        contributing to open-source projects, or enjoying a good cup of coffee 
+                        while planning my next creative project.
+                    </p>
+                    <div class="skills">
+                        <h3>Marketing Expertise</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Brand Marketing</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Social Media Marketing</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="92"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Email Marketing</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CRM (Salesforce & HubSpot)</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Lead Generation</span>
+                                    <span class="skill-percentage">87%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="87"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Google Analytics</span>
+                            <span class="skill-tag">Facebook Ads</span>
+                            <span class="skill-tag">LinkedIn Marketing</span>
+                            <span class="skill-tag">Content Strategy</span>
+                            <span class="skill-tag">Marketing Automation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="40">0</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="2">0</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <!-- Work Experience Background Animation -->
+        <div class="experience-bg-animation">
+            <div class="floating-work-icons">
+                <!-- Project Management -->
+                <div class="work-icon" data-tooltip="Project Management">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                
+                <!-- Strategy -->
+                <div class="work-icon" data-tooltip="Strategic Planning">
+                    <i class="fas fa-chess"></i>
+                </div>
+                
+                <!-- Content Creation -->
+                <div class="work-icon" data-tooltip="Content Creation">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                
+                <!-- Client Relations -->
+                <div class="work-icon" data-tooltip="Client Relations">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                
+                <!-- Campaign Management -->
+                <div class="work-icon" data-tooltip="Campaign Management">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                
+                <!-- Data Analysis -->
+                <div class="work-icon" data-tooltip="Data Analysis">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                
+                <!-- Brand Development -->
+                <div class="work-icon" data-tooltip="Brand Development">
+                    <i class="fas fa-palette"></i>
+                </div>
+                
+                <!-- Market Research -->
+                <div class="work-icon" data-tooltip="Market Research">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                
+                <!-- ROI Tracking -->
+                <div class="work-icon" data-tooltip="ROI Tracking">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                
+                <!-- Performance Metrics -->
+                <div class="work-icon" data-tooltip="Performance Metrics">
+                    <i class="fas fa-tachometer-alt"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My journey in growth marketing and communications</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Communications Consultant</h3>
+                            <div class="experience-company">Tell Epic Tale</div>
+                            <div class="experience-duration">Jun 2024 - May 2025</div>
+                        </div>
+                        <div class="experience-description">
+                            <p>Start describing your topic in a few words. Make sure to stay concise and include important keywords.</p>
+                        </div>
+                        <div class="experience-skills">
+                            <span class="skill-tag">Strategic Communications</span>
+                            <span class="skill-tag">Content Strategy</span>
+                            <span class="skill-tag">Brand Messaging</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Marketing and Communications Specialist</h3>
+                            <div class="experience-company">SimpliFin</div>
+                            <div class="experience-duration">Dec 2023 — May 2024</div>
+                        </div>
+                        <div class="experience-description">
+                            <p><strong>My responsibilities include:</strong></p>
+                            <ul>
+                                <li>Crafted compelling content for emails, social media, blogs, articles, and newsletters, all strategically optimized to engage the audience and achieve marketing goals.</li>
+                                <li>Conducting in-depth market research and competitor analysis to identify target audience segments and optimize marketing strategies for maximum impact and ROI.</li>
+                                <li>Utilizing analytics tools and data-driven insights to track and measure campaign performance and identify areas for improvement.</li>
+                            </ul>
+                        </div>
+                        <div class="experience-skills">
+                            <span class="skill-tag">Content Marketing</span>
+                            <span class="skill-tag">Market Research</span>
+                            <span class="skill-tag">Analytics</span>
+                            <span class="skill-tag">Social Media</span>
+                            <span class="skill-tag">Email Marketing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <!-- Animated Background Elements -->
+        <div class="contact-bg-animation">
+            <div class="floating-icons">
+                <i class="fas fa-envelope floating-icon"></i>
+                <i class="fas fa-phone floating-icon"></i>
+                <i class="fas fa-map-marker-alt floating-icon"></i>
+                <i class="fab fa-linkedin floating-icon"></i>
+                <i class="fas fa-code floating-icon"></i>
+                <i class="fas fa-heart floating-icon"></i>
+                <i class="fas fa-rocket floating-icon"></i>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>dhariaruchitaa@gmail.com</p>
+                            <a href="mailto:dhariaruchitaa@gmail.com" class="contact-action">Send Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Ottawa, Canada</p>
+                            <a href="#" class="contact-action">View Map</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ruchita-dharia/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/RuchitaDharia" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tellepictale/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-header">
+                        <h3>Drop me a message! 💌</h3>
+                        <p>I'd love to hear from you</p>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">👤 Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            <div class="input-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">📧 Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            <div class="input-border"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">💡 Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                        <div class="input-border"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">💬 Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or just say hi!" required></textarea>
+                        <div class="input-border"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-send">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane btn-icon"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-wrapper">
+                    <div class="footer-text">
+                        <p class="copyright">&copy; 2025 Ruchita Dharia. All rights reserved.</p>
+                        <p class="tagline">Built with <span class="heart">❤️</span> and lots of <span class="coffee">☕</span></p>
+                    </div>
+                    
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/ruchita-dharia/" class="footer-social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/RuchitaDharia" class="footer-social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tellepictale/" class="footer-social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    
+                    <div class="footer-decoration">
+                        <div class="decoration-dots">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
