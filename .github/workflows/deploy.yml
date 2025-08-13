@@ -22,6 +22,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # Use the GitHub-provided token
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -43,3 +45,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # Use the GitHub-provided token          git add -f .github/workflows/deploy.yml
